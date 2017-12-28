@@ -7,5 +7,8 @@ export default class Stage extends cc.Component {
     public leftOrigin:cc.Vec2 = cc.v2();
     @property(cc.Vec2)
     public rightOrigin:cc.Vec2 = cc.v2();
+    @property(cc.Node)
+    public blockLayer:cc.Node = null;
+
 
 }

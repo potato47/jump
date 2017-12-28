@@ -42,8 +42,8 @@
     "_cascadeOpacityEnabled": true,
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
+      "x": 0.5058139534883721,
+      "y": 0.6557377049180311
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -56,8 +56,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 174,
-      "y": 190
+      "x": 175,
+      "y": 228
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -137,10 +137,10 @@
       "__id__": 1
     },
     "_enabled": true,
-    "maxScale": 0,
-    "minScale": 0,
-    "minDistance": 0,
-    "maxDistance": 0
+    "maxScale": 1.5,
+    "minScale": 1,
+    "minDistance": 200,
+    "maxDistance": 400
   },
   {
     "__type__": "cc.PrefabInfo",
