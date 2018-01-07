@@ -1,22 +1,21 @@
-import BlockSystem from "./systems/BlockSystem";
-import StageSystem from "./systems/StageSystem";
-import PlayerSystem from "./systems/PlayerSystem";
-import GameScene from "./scenes/GameScene";
+import { GameScene } from "./components/game/GameScene";
 
 export class Global extends cc.EventTarget {
-    public blockSystem: BlockSystem = null;
-    public stageSystem: StageSystem = null;
-    public playerSystem: PlayerSystem = null;
-    public gameScene: GameScene = null;
+    public static readonly Instance:Global = new Global();
 
-    constructor() {
+    private constructor() {
         super();
-        this.blockSystem = new BlockSystem();
-        this.stageSystem = new StageSystem();
-        this.playerSystem = new PlayerSystem();
+    }
+
+    public startGame(selectedPlayer:number) {
+        cc.director.loadScene("game",(err,scene)=>{
+            if(!err) {
+                let gameScene:GameScene = scene.getChildByName("Canvas").getComponent(GameScene);
+                cc.audioEngine.play(gameScene.bgm,true,1);
+            }
+        });
     }
 
 }
 
-export const G = new Global();
-(window as any).G = G;
+export const G = Global.Instance;

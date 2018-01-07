@@ -8,7 +8,7 @@
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "jailbreakPlatform": false,
-  "md5Cache": false,
+  "md5Cache": true,
   "mergeStartScene": false,
   "oauthLoginServer": "",
   "optimizeHotUpdate": false,
@@ -21,8 +21,8 @@
   "packageName": "org.cocos2d.jump",
   "privateKey": "",
   "renderMode": "0",
-  "startScene": "33568997-ff9c-4e18-b7a6-2c45e8b2c28c",
+  "startScene": "f052c3be-22fe-4d57-9740-cb9e391d9eae",
   "title": "jump",
-  "webOrientation": "auto",
+  "webOrientation": "portrait",
   "xxteaKey": "1d413dab-b87a-4f"
 }
