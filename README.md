@@ -22,3 +22,4 @@
 ---
 
 我还写了一个2d横版的跳一跳，感兴趣的可以看我另一个小游戏集合项目 https://github.com/potato47/so-many-games
+use www.google.com/translate
